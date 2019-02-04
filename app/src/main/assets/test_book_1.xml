@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gamebook name="wizard" >
+    <room id="1">
+        <description>
+            This is the first room of your adventure. Feel free to look around and not get eaten by a Grue.
+        </description>
+        <link ref="2" description="Go to room 2" />
+    </room>
+    <room id="2">
+        <description>
+            This is the second room. There are no Grue's here either.
+        </description>
+        <link ref="1" description="Go to room 1." />
+        <link ref="3" description="Go to room 3" />
+    </room>
+    <room id="3">
+        <description>
+            OMG this is so exciting!
+        </description>
+        <link ref="1" description="Go back to room 1, don't collect $400" />
+        <link ref="2" description="I think I dropped something in the other room, go back to room 2." />
+    </room>
+</gamebook>
